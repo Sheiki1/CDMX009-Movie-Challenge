@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <script src="main.js"></script>
+    <div class="test">
+        <h2>¿Que pelicula ver dependiendo de tu humor?</h2>
+        <button  id="myBtn" onclick="document.getElementById('id01').style.display='block'">TEST</button>
+        <div id="id01" class="modal">
+          <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">×</span>
+          <form class="modal-content" >
+            <div class="container">
+              <h1>¿Que pelicula ver dependiendo de tu humor?</h1>
+              <p>¿Cual de estas imagenes describe tu dia?</p>
+              <div id="prim">
+                <div  id="feliz"></div>
+                <div  id="triste"></div>
+                <div  id="enojado"></div>
+                <div  id="asustado"></div>
+                <div  id="aburrido"></div>
+              </div>
+              <br>
+              <div id="prim">
+                <input type="radio" id="felizP" value="0" ></input>
+                <input type="radio" id="triste1"></input>
+                <input type="radio" id="enojado1"></input>
+                <input type="radio" id="asustado1"></input>
+                <input type="radio" id="aburrido1"></input>
+              </div>
+              <br>
+              <p>¿En cual de estos lugares preferirias estar?</p>
+              <div id="prim">
+                <div id="concierto"></div>
+                <div id="cama"></div>
+                <div id="ejercicio"></div>
+                <div id="fiesta"></div>
+                <div id="playa"></div>
+              </div>
+              <br>
+              <div id="prim">
+                <input type="radio" id="concierto1"></input>
+                <input type="radio" id="cama1"></input>
+                <input type="radio" id="ejercicio1"></input>
+                <input type="radio" id="fiesta1"></input>
+                <input type="radio" id="playa1"></input>
+              </div>
+              <br>
+              <p>¿Que color describe mejor tu estado de animo?</p>
+              <div id="prim">
+                <div id="amarillo"></div>
+                <div id="rojo"></div>
+                <div id="azul"></div>
+                <div id="gris"></div>
+                <div id="negro"></div>
+            </div>
+            <br>
+            <div id="prim">
+              <input type="radio" id="amarillo1"></input>
+              <input type="radio" id="rojo1"></input>
+              <input type="radio" id="azul1"></input>
+              <input type="radio" id="gris1"></input>
+              <input type="radio" id="negro1"></input>
+            </div>
+            <br>
+            </div>
+            <input type="button" value="Try it" class="searchButton3" onclick="myFunction()" ></input>
+            <div id="per"></div>
+            
+          </form>
+        </div>
+        <h2>Si fueras una pelicula ,¿Que pelicula serias?</h2>
+        <button class="searchButtontwo" >Test</button>
+      </div>
+      <div class="logo">
+        <img id="logoImg" src="https://pixabay.com/get/57e6d4474d52ab14f1dc8460c62d3f7d1737d8e34e507441702872d2964ccc_640.png">
+      <div>
+        <div id="modal-con">
+      </div>
+    
+</body>
+</html>

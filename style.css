@@ -1,0 +1,346 @@
+body { 
+    background-color: #F5F5DC;
+    display: flex;
+    flex-wrap: wrap;
+}
+.logo{
+  /*display: flex;*/
+  justify-content: flex-end;
+  width: 400px;
+  height: 650px;
+  background-color: #6f88fc;
+  margin-left:133px;
+
+}
+.test{
+  display:flex;
+  flex-direction:column;
+  /*justify-content: space-around;*/
+  align-content: center;
+  margin-top: 100px;
+  margin-right :150px;
+  margin-left:150px;
+  /*flex-direction:column;
+  justify-content: center;*/
+  
+  width: 500px;
+  height: 530px;
+}
+#myBtn, .searchButtontwo,.searchButton3{
+ /* width: 10px;*/
+  height: 60px;
+  justify-content:center;
+  align-content: center;
+  /*display: flex;
+  justify-content: center;*/
+  
+  /*align-content: center;*/
+  font-size: large;
+  font-family: Segoe UI;
+  font-weight: bold;
+  color: #F5F5DC;
+  box-sizing : border-box;  
+  
+  border        : 0; 
+  border-radius : .50em;
+  
+ /* width   : 8em;  100px */
+  background : #6f88fc;
+}
+.searchButton3{
+  margin-left: 400px;
+  margin-bottom: 10px;
+  width: 300px;
+}
+#logoImg{
+  /*display:flex;*/
+  margin-top:50px;
+  margin-left: 100px;
+  justify-content:center;
+  align-content: center;
+  width:200px;
+  height:200px;
+    /*background-repeat: no-repeat;*/
+    /*background-position: 50%;*/
+    border-radius: 50%;
+   /* background-size: 100% auto;*/
+}
+/*img{
+  width:150px;
+  height:150px;
+  border-radius: 50%;
+  margin: 20px;
+}*/
+
+h2 {
+  padding: 2px 16px;
+  justify-content: center;
+  text-align: center;
+  
+}
+
+
+
+/*button:hover {
+  opacity:1;
+}
+
+/* Float cancel and delete buttons and add an equal width 
+.cancelbtn, .deletebtn {
+  float: left;
+  width: 50%;
+}*/
+
+/* Add a color to the cancel button */
+.cancelbtn {
+  background-color: #ccc;
+  color: black;
+}
+
+/* Add a color to the delete button */
+.deletebtn {
+  background-color: #f44336;
+}
+
+/* Add padding and center-align text to the container */
+.container {
+  padding: 16px;
+  text-align: center;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: #474e5d;
+  padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+ 
+/* The Modal Close Button (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+/* Clear floats 
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}*/
+
+/* Change styles for cancel button and delete button on extra small screens 
+@media screen and (max-width: 300px) {
+  .cancelbtn, .deletebtn {
+     width: 100%;
+  }
+}*/
+#feliz{
+  border-radius: 50%;
+  font-size: 0px;
+  width: 15%;
+  padding: 0;
+  height: 150px;
+  background-image: url("https://pixabay.com/get/54e8d34b4d52a914f1dc8460c62d3f7d1737d8e34e50744170287dd29f48cc_640.jpg");
+  background-repeat: no-repeat;
+  background-size: 225px;
+  background-position: center;
+}
+#triste{
+  border-radius: 50%;
+  font-size: 0px;
+  width: 15%;
+  padding: 0;
+  height: 150px;
+  background-image: url("https://pixabay.com/get/57e8d64a4c50af14f1dc8460c62d3f7d1737d8e34e50744170287dd69149c0_640.jpg");
+  background-repeat: no-repeat;
+  background-size: 275px;
+  background-position: center;
+}
+#enojado{
+  border-radius: 50%;
+  font-size: 0px;
+  width: 15%;
+  padding: 0;
+  height: 150px;
+  background-image: url("https://pixabay.com/get/52e9dd444a53ad14f1dc8460c62d3f7d1737d8e34e50744170287dd6944dc2_640.jpg");
+  background-repeat: no-repeat;
+  background-size: 250px;
+  background-position: center;
+}
+#asustado{
+  border-radius: 50%;
+  font-size: 0px;
+  width: 15%;
+  padding: 0;
+  height: 150px;
+  background-image: url("https://pixabay.com/get/57e3d5444c57af14f1dc8460c62d3f7d1737d8e34e50744170287dd6934bc5_640.jpg");
+  background-repeat: no-repeat;
+  background-size: 250px;
+  background-position: center;
+}
+#aburrido{
+  border-radius: 50%;
+  font-size: 0px;
+  width: 15%;
+  padding: 0;
+  height: 150px;
+  background-image: url("https://pixabay.com/get/51e3d4424c57b10ff3d8997cc220347c1d39d8f85254794c722979d1924a_640.jpg");
+  background-repeat: no-repeat;
+  background-size: 250px;
+  background-position: center;
+}
+
+
+#concierto{
+  border-radius: 50%;
+  font-size: 0px;
+  width: 15%;
+  padding: 0;
+  height: 150px;
+  background-image: url("https://pixabay.com/get/57e0d0454d54a814f1dc8460c62d3f7d1737d8e34e50744170287dd7964dc5_640.jpg");
+  background-repeat: no-repeat;
+  background-size: 225px;
+  background-position: center;
+}
+#cama{
+  border-radius: 50%;
+  font-size: 0px;
+  width: 15%;
+  padding: 0;
+  height: 150px;
+  background-image: url("https://pixabay.com/get/57e2d54a485aa414f1dc8460c62d3f7d1737d8e34e50744170287dd7954fc7_640.jpg");
+  background-repeat: no-repeat;
+  background-size: 275px;
+  background-position: center;
+}
+#ejercicio{
+  border-radius: 50%;
+  font-size: 0px;
+  width: 15%;
+  padding: 0;
+  height: 150px;
+  background-image: url("https://pixabay.com/get/50e4d3474250b10ff3d8997cc220347c1d39d8f85254794c722978d79549_640.jpg");
+  background-repeat: no-repeat;
+  background-size: 250px;
+  background-position: center;
+}
+#fiesta{
+  border-radius: 50%;
+  font-size: 0px;
+  width: 15%;
+  padding: 0;
+  height: 150px;
+  background-image: url("https://pixabay.com/get/57e8d4414d55ae14f1dc8460c62d3f7d1737d8e34e50744170287dd7934ac1_640.jpg");
+  background-repeat: no-repeat;
+  background-size: 250px;
+  background-position: center;
+}
+#playa{
+  border-radius: 50%;
+  font-size: 0px;
+  width: 15%;
+  padding: 0;
+  height: 150px;
+  background-image: url("https://pixabay.com/get/57e2d6454f5aad14f1dc8460c62d3f7d1737d8e34e50744170287dd7924ac7_640.jpg");
+  background-repeat: no-repeat;
+  background-size: 300px;
+  background-position: center;
+}
+
+
+#amarillo{
+  border-radius: 50%;
+  font-size: 0px;
+  width: 15%;
+  padding: 0;
+  height: 150px;
+  background-image: url("https://pixabay.com/get/57e4d1474a50a914f1dc8460c62d3f7d1737d8e34e50744170287dd79048c7_640.jpg");
+  background-repeat: no-repeat;
+  background-size: 225px;
+  background-position: center;
+}
+#rojo{
+  border-radius: 50%;
+  font-size: 0px;
+  width: 15%;
+  padding: 0;
+  height: 150px;
+  background-image: url("https://pixabay.com/get/57e1d54b4e52a914f1dc8460c62d3f7d1737d8e34e50744170287dd79f4dc2_640.jpg");
+  background-repeat: no-repeat;
+  background-size: 275px;
+  background-position: center;
+}
+#azul{
+  border-radius: 50%;
+  font-size: 0px;
+  width: 15%;
+  padding: 0;
+  height: 150px;
+  background-image: url("https://pixabay.com/get/52e9d54a4f53af14f1dc8460c62d3f7d1737d8e34e50744170287dd79f48c0_640.jpg");
+  background-repeat: no-repeat;
+  background-size: 250px;
+  background-position: center;
+}
+#gris{
+  border-radius: 50%;
+  font-size: 0px;
+  width: 15%;
+  padding: 0;
+  height: 150px;
+  background-image: url("https://pixabay.com/get/57e2d1454c54a414f1dc8460c62d3f7d1737d8e34e50744170287dd79e4ec2_640.jpg");
+  background-repeat: no-repeat;
+  background-size: 250px;
+  background-position: center;
+}
+#negro{
+  border-radius: 50%;
+  font-size: 0px;
+  width: 15%;
+  padding: 0;
+  height: 150px;
+  background-image: url("https://pixabay.com/get/54e9d1474250ac14f1dc8460c62d3f7d1737d8e34e50744170287dd0974dc1_640.jpg");
+  background-repeat: no-repeat;
+  background-size: 300px;
+  background-position: center;
+}
+
+#prim{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+
+
+            
